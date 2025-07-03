@@ -19,15 +19,15 @@
 
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-num1 = int(input("Digite o primeiro número: "))
-num2 = int(input("Digite o segundo número: "))
-resultado_divisao = num1 //num2
-print("O resultado da divisão inteira é:", resultado_divisao)
+#num1 = int(input("Digite o primeiro número: "))
+#num2 = int(input("Digite o segundo número: "))
+#resultado_divisao = num1 //num2
+#print("O resultado da divisão inteira é:", resultado_divisao)
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-#num = int(input("Digite um número: "))
-#resultado_quadrado = num ** 2
-#print("O quadrado do número é:", resultado_quadrado)
+num = int(input("Digite um número: "))
+resultado_quadrado = num ** 2
+print("O quadrado do número é:", resultado_quadrado)
 
 # #### Números de Ponto Flutuante (`float`)
 
