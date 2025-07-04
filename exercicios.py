@@ -25,9 +25,9 @@
 #print("O resultado da divisão inteira é:", resultado_divisao)
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-num = int(input("Digite um número: "))
-resultado_quadrado = num ** 2
-print("O quadrado do número é:", resultado_quadrado)
+#num = int(input("Digite um número: "))
+#resultado_quadrado = num ** 2
+#print("O quadrado do número é:", resultado_quadrado)
 
 # #### Números de Ponto Flutuante (`float`)
 
@@ -45,8 +45,22 @@ print("O quadrado do número é:", resultado_quadrado)
 
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+base = float(input("Digite a base: "))
+expoente = float(input("Digite o expoente"))
+potencia = base ** expoente
+print("O resultado da potência é:", potencia)
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+#celsius = float(input("Digite a temperatura em Celsius: "))
+#fahrenheit = (celsius * 9/5) + 32
+#print(f'{celsius}ºC é igual a {fahrenheit}º F')
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+#import math
+
+#raio = float(input( "Digite o raio do círculo: "))
+#area = math.pi * (raio ** 2)
+#print(f"A área do círculo é: {area}")
 
 # #### Strings (`str`)
 
