@@ -56,16 +56,23 @@
 #print(f'{celsius}ºC é igual a {fahrenheit}º F')
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
-import math
+#import math
 
-raio = float(input( "Digite o raio do círculo: "))
-area = math.pi * (raio ** 2)
-print(f"A área do círculo é: {area}")
+#raio = float(input( "Digite o raio do círculo: "))
+#area = math.pi * (raio ** 2)
+#print(f"A área do círculo é: {area}")
 
 # #### Strings (`str`)
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+
+#texto = input("Digite um texto: ")
+#texto_maiusculas = texto.upper()
+#print("Texto em maiúsculas:", texto_maiusculas)
+
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+
+
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
